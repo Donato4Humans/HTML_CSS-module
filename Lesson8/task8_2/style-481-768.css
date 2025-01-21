@@ -1,0 +1,15 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .wrapper{
+        padding: 48px 24px;
+    }
+    .catalog{
+        gap: 40px;
+        flex-direction: column;
+    }
+    .cards-row{
+        gap: 24px;
+    }
+    .card p{
+        max-width: 348px;
+    }
+}

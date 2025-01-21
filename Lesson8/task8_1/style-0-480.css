@@ -1,0 +1,17 @@
+@media screen and (max-width: 480px) {
+    .wrapper{
+        padding: 32px 16px;
+        height: auto;
+    }
+    .catalog{
+        gap: 40px;
+    }
+    .cards-row{
+        gap: 40px;
+        flex-direction: column;
+    }
+    .card img{
+        width: 343px;
+        height: 257px;
+    }
+}

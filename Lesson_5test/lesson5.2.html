@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex_order</title>
+    <style>
+        .flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        .card{
+            width: 200px;
+            height: 200px;
+
+        }
+        /*default order is 0*/
+        .blue{
+            background-color: blue;
+            order: 2;
+        }
+        .green{
+            background-color: green;
+            order: -1;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .pink{
+            background-color: pink;
+            order: 1;
+        }
+        .orange{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+<div class="flex">
+    <div class="card blue"></div>
+    <div class="card green"></div>
+    <div class="card yellow"></div>
+    <div class="card pink"></div>
+    <div class="card orange"></div>
+</div>
+</body>
+</html>

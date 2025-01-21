@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Combined selectors</title>
+    <style>
+        /*h1+p{*/
+        /*    color: #446f44;*/
+        /*}*/
+        /*sign+ interacts with next selector after */
+        h1~p{
+            color: #446f44;
+        }
+        /*sign~ interacts with all selectors after */
+
+        div p{
+            color: orange;
+        }
+        div>p>span{
+            color: #446f44;
+        }
+
+
+    </style>
+</head>
+<body>
+<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, saepe.</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, ea?</p>
+<p>Ad cum eaque eligendi expedita modi, nobis omnis quasi quisquam.</p>
+<p>Dicta dolorem exercitationem, id natus praesentium quasi. Debitis, odit, praesentium.</p>
+<p>A ea esse facilis itaque nisi nostrum recusandae temporibus voluptate.</p>
+<p>Adipisci consequatur corporis error expedita illum iure neque, odio saepe.</p>
+<div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, rem.</p>
+    <p>Alias aliquid beatae dolorem <span>natus perferendis quidem</span> quis quod quos.</p>
+    <p>Dolores facilis, iusto molestiae nobis pariatur quae repudiandae tenetur voluptatum!</p>
+    <p>Delectus doloribus illo iure maiores? Dolorem harum minima quasi sapiente?</p>
+    <p>Ab fugiat ipsa nemo nisi nostrum quod recusandae soluta, voluptas!</p>
+</div>
+
+</body>
+</html>

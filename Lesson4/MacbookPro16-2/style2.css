@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.text_h_f{
+    font-family: "Inter", serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+header {
+    height: 20vh;
+    background: #8D8484;
+    color: #000;
+    display: flex;
+}
+header p{
+    /*margin: 95px 786px 74px 786px;*/
+    /*calculated in viewports because of text sliding on different page zoom */
+    margin: 8.5vh 45.5vw 87vh 45.5vw;
+}
+
+main, section, aside{
+    height: 60vh;
+    display: flex;
+    color: #FFF;
+    font-family: "Inter", serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+section{
+    width: 73vw;
+    flex-direction: column;
+}
+section div{
+    height: 33.333%;
+    width: 100%;
+}
+.top_d{
+    background: #776969;
+}
+.top_d p{
+    margin: 100px 590px 69px 438px;
+}
+.mid_d{
+    background: #643030;
+}
+.mid_d p{
+    margin: 86px 590px 83px 432px;
+}
+.bot_d{
+    background: #441818;
+}
+.bot_d p{
+    margin: 79px 590px 90px 432px;
+}
+
+aside{
+    flex-direction: column;
+    width: 27vw;
+}
+aside div{
+    height: 50%;
+    width: 100%;
+}
+.top_a{
+    background: #937575;
+}
+.top_a p{
+    margin: 154px 150px 126px 144px;
+}
+.bot_a{
+    background: #644C4C;
+}
+.bot_a p{
+    margin: 136px 145px 144px 144px;
+}
+
+footer{
+    height: 20vh;
+    background: #BDBDBD;
+    color: #000;
+    display: flex;
+}
+footer p{
+    /*margin: 85px 800px 84px 800px;*/
+    margin: 8vh 46vw 87vh 46vw;
+}

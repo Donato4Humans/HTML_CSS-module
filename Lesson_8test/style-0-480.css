@@ -1,0 +1,9 @@
+@media screen and (max-width: 480px) {
+    .box{
+        width: 150px;
+        height: 150px;
+    }
+    body{
+        flex-direction: column;
+    }
+}

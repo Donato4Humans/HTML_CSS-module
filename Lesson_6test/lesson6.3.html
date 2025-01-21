@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pseudo_class & elements</title>
+    <style>
+        div :first-child{
+            color: yellow;
+        }
+        div :last-child{
+            color: yellow;
+        }
+        /*div p::first-letter{*/
+        /*    color: red;*/
+        /*    font-size: 20px;*/
+        /*}*/
+        /*div p::first-line{*/
+        /*    color: red;*/
+        /*    font-size: 20px;*/
+        /*}*/
+        div p:last-of-type{
+            color: red;
+        }
+
+        /*ul li:nth-child(2n+6){*/
+        /*    color: #5454D4;*/
+        /*}*/
+        /*ul li:nth-child(odd){*/
+        /*    color: #5454D4;*/
+        /*}*/
+        ul li:nth-last-child(2n+6){
+            color: #5454D4;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores consectetur dicta maiores molestias quae quo tenetur unde velit vero? Aspernatur dolorem in maiores molestias nisi, nostrum similique ut? Magnam.</p>
+    <p>Dolorum natus provident repudiandae tempora.</p>
+    <p>Deserunt eligendi error temporibus vitae!</p>
+    <p>Enim error fuga quis repellat?</p>
+    <p>Beatae dignissimos provident sint ut.</p>
+    <p>Assumenda ducimus maiores porro tempore.</p>
+    <p>Ea eaque enim minus quas.</p>
+    <p>Assumenda error incidunt minus perferendis?</p>
+    <span>Lorem.</span>
+    <span>Lorem.</span>
+    <span>Lorem.</span>
+    <span>Lorem.</span>
+
+    <ul>
+        <li>Lorem ipsum dolor.</li>
+        <li>Minima, non, veniam?</li>
+        <li>Ducimus excepturi, nesciunt.</li>
+        <li>Amet, dignissimos, itaque?</li>
+        <li>Aut, consequatur, maiores!</li>
+        <li>Explicabo maiores, suscipit.</li>
+        <li>Iure molestiae, saepe?</li>
+        <li>Et neque, sapiente.</li>
+        <li>Alias, blanditiis quas.</li>
+        <li>Doloremque, doloribus, non.</li>
+        <li>Delectus incidunt, modi.</li>
+        <li>Eos maiores, recusandae.</li>
+        <li>Magnam, natus ratione?</li>
+        <li>Earum neque, ratione.</li>
+        <li>At, dicta est?</li>
+    </ul>
+</div>
+</body>
+</html>

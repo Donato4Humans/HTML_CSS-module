@@ -1,0 +1,9 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .wrapper{
+        padding: 32px 24px;
+    }
+    .card img{
+        width: 219px;
+        height: 164px;
+    }
+}

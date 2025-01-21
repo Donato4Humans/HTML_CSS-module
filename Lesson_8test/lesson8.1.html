@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Align-self</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-around;
+            /*align-items: center;*/
+            background-color: grey;
+            height: 50vh;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: #446f44;
+        }
+        .item1{
+            align-self: flex-start;
+        }
+        .item2{
+            align-self: center;
+        }
+        .item3{
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box item1"></div>
+        <div class="box item2"></div>
+        <div class="box item3"></div>
+    </div>
+</body>
+</html>

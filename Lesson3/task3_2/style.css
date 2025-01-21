@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+section{
+    height: 50vh;
+    gap: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 50px;
+}
+section h3{
+    font-size: 32px;
+}
+.top_section{
+    background-color: rosybrown;
+}
+.bottom_section{
+    background-color: black;
+    color: white;
+}

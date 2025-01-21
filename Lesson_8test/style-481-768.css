@@ -1,0 +1,9 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .box{
+        width: 225px;
+        height: 225px;
+    }
+    body{
+        flex-direction: column;
+    }
+}

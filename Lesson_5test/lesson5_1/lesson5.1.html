@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>favicon+animation</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: grey;
+        }
+        .pink_box{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin: 100px auto 0 auto;
+            animation: box_roll 5s linear infinite alternate;
+        }
+        @keyframes box_roll {
+            from{
+                /*transform: scale(1,2);*/
+                /*transform: scaleX(2);*/
+                /*transform: skewX(60deg);*/
+                transform: translate(300px, 300px);
+            }
+            /*40%{*/
+            /*    border-radius: 25%;*/
+            /*    transform: rotate(-60deg);*/
+            /*}*/
+            /*50%{*/
+            /*    !*transform: skew(0deg);*!*/
+            /*}*/
+            to{
+                /*transform: scale(1) rotate(0deg);*/
+                background-color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="pink_box"></div>
+
+</body>
+</html>
